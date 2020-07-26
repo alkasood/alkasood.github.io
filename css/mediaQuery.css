@@ -2,7 +2,9 @@
    /* Portrait Small */
    @media only screen and (min-width: 320px) and (max-width: 567px) {
     
-    
+    body {
+      border: 1px solid #FF0066;
+    }
     .titleAnc h3{
         font-size: 77px;
     }
@@ -87,7 +89,9 @@
 
   /* Small devices (landscape phones, 576px and up)*/
   @media (min-width: 568px) and (max-width:766px) {                                                   
-   
+    body {
+      border: 1px solid #3d07ff;
+    }
     #navbarCollapse{ 
         float: right;
     }
@@ -194,7 +198,9 @@
  }
 
  @media screen and (min-width: 767px) and (max-width: 991px) {
-    
+    body {
+      border: 1px solid #ffc107;
+    }
     .container {
         max-width: 694px;
     }
@@ -272,7 +278,9 @@
  
   @media screen and  (min-width:991px) and (max-width:1023px) {
    
-    
+    body {
+      border: 1px solid #b6088a;
+    }
   
     .skillWidth1,.skillWidth2 {
       width: 100%;
@@ -338,7 +346,9 @@
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 1024px) and (max-width:1280px) {
 
-    
+    body {
+      border: 1px solid #08eb94;
+    }
     #showcase { 
         min-height: 475px !important;
     }

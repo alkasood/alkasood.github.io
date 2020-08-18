@@ -80,8 +80,15 @@
     .panel-group.timeline .timeline-item .panel .panel-heading .panel-title h4 {
       font-size: 20px;
     }
-    #getintouch h1{ font-size: 26px;}
-    #getintouch p{ font-size: medium;}
+    #getintouch h1{ 
+      font-size: 26px;
+    }
+    #getintouch p{ 
+      font-size: medium;
+    }
+    .cardStyle .card-body { 
+      height:300px;
+    }
 
   } 
 
@@ -191,6 +198,15 @@
   .container{ 
       width:577px;
     }
+    .cardStyle .card-body { 
+      height:300px;
+    }
+    .cardStyle{
+      margin-top: 10px;
+    }
+    #myCarousel ul.carousel-indicators{
+      margin-bottom:0px !important;
+    }
  }
 
  @media screen and (min-width: 767px) and (max-width: 991px) {
@@ -267,12 +283,13 @@
         font-size: 28px;
         margin-top: 34px !important;
     }
-  }
-
- 
-  @media screen and  (min-width:991px) and (max-width:1023px) {
-   
+    .cardStyle .card-body{ 
+      height: 323px;
+      overflow: scroll; 
+    }
     
+  } 
+  @media screen and  (min-width:991px) and (max-width:1023px) {      
   
     .skillWidth1,.skillWidth2 {
       width: 100%;
@@ -331,14 +348,16 @@
         width: 135px;
         height:135px;
       }
-    
+    .cardStyle .card-body { 
+      height:509px;
+    }  
       
   }
+  
    
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 1024px) and (max-width:1280px) {
 
-    
     #showcase { 
         min-height: 475px !important;
     }
@@ -352,7 +371,11 @@
     #about .card-body{
         padding: 17px;
     }
+    .cardStyle .card-body { 
+      height:509px;
+    }
   }
+  
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 1200px) and (max-width:1280px) {
 
@@ -367,8 +390,17 @@
         font-size: 32px ;
         margin-top:30px;
     }
+    .cardStyle .card-body
+    {
+     height:620px;
+    }
   }
-  
+  @media (min-width: 1281px){
+    .cardStyle .card-body{
+    height:619px;
+    }
+  }
+   
   
     
     

@@ -133,8 +133,8 @@ nav.opac {
 
 .skillsBlue {
   min-height: 400px;
-  background-color: #1b314a;
-  background-image: url('../img/pattern.jpg');
+  background-color: #17a2b8;
+  /* background-image: url('../img/pattern.jpg'); */
   background-repeat: repeat-x;
   background-size: cover;
   background-attachment: fixed;

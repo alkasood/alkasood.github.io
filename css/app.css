@@ -63,7 +63,7 @@
   margin-right: auto;
   margin-left: auto;
   line-height: 20px;    
-   
+   text-align: right;
 }
 
 @media (min-width: 568px) {

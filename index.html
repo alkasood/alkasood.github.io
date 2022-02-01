@@ -67,7 +67,7 @@
   <div class="home-inner container ">   
       <div class="col-lg-9 d-none d-lg-block py-6">
         <h2 class="text-white">Hey, I am</h2>
-        <h1 class="display-2"> UX / UI Designer!</h1>
+        <h1 class="display-2"> UX / UI Designer</h1>
 
         <div class="d-inline-flex p-2 bg-secondary text-white mb-2 headPara">Stand out in the Land of ordinary,</div>
         <div class="clearfix"></div>
@@ -94,9 +94,8 @@
 <!-- End Quote Section  -->
 
 <!--Service Box -->
-<section id="services-section">
-  <div class="container py-5">
-   
+<section id="services-section" class="bg-dark text-white">
+  <div class="container py-5">   
       <div class="bgAboutHeader"> 
         <h1 class="display-4 text-center">What Do I Actually Do? </h1>
         <p class="lead text-center text-uppercase">Create <strong>Beautiful</strong> & <strong>Functional</strong> websites.</p>        
@@ -150,20 +149,16 @@
 </section>
 <!-- GetInTouch  -->
 
-
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 <script>
 $(function() {
-
   $(".progress").each(function() {
-
     var value = $(this).attr('data-value');
     var left = $(this).find('.progress-left .progress-bar');
     var right = $(this).find('.progress-right .progress-bar');
-
     if (value > 0) {
       if (value <= 50) {
         right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')

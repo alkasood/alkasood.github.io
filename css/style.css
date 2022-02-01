@@ -229,8 +229,10 @@ nav.opac {
   -ms-transform: scale(1);
   transform: scale(1);
 }
-
-.tabular.btn.focus, .tabular.btn:focus {
+.tabular button{
+  border-radius:0px;
+}
+.tabular .btn.focus, .tabular .btn:focus {
   box-shadow: none !important;
   color: #16E9BB !important;
 }
@@ -273,6 +275,9 @@ nav.opac {
  }
 #myCarousel ul{
   margin-bottom: 0px;
+}
+.tabular button:focus {
+   box-shadow:none;
 }
 
 

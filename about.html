@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/progressloader.css">
+    <link rel="stylesheet" type="text/css" href="css/servicebox.css">  
+	  <link rel="stylesheet" href="css/animate.css" />
+	  <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" type="text/css" href="css/maintimeline.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
@@ -25,39 +29,33 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="skills.html">Skills</a>
-          </li>
-            <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">               
-                <a class="dropdown-item" href="project-chef-in-your-city.html">Chef in your city</a>
-                <a class="dropdown-item" href="project-fitness-world.html">Fitness World</a>						  
-                <a class="dropdown-item" href="project-ariigo.html">Ariigo</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="project-yogis.html">Yogis</a>					
-                <a class="dropdown-item" href="project-arina-furniture.html">Arina Decor</a>
-                <a class="dropdown-item" href="project-perception-eyes.html">Perception</a>
-                <a class="dropdown-item" href="#">Live Projects</a>
-              </div>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="#getintouch">Get In Touch</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">          
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>                                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle " href="projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">                   
+                    <a class="dropdown-item" href="project-chef-in-your-city.html">Chef in your city</a>
+                    <a class="dropdown-item" href="project-fitness-world.html">Fitness World</a>						  
+                    <a class="dropdown-item" href="project-ariigo.html">Ariigo</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="project-yogis.html">Yogis</a>					
+                    <a class="dropdown-item" href="project-arina-furniture.html">Arina Decor</a>
+                    <a class="dropdown-item" href="project-perception-eyes.html">Perception</a>
+                    <a class="dropdown-item " href="resume.html">Graphic</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#getintouch">Get In Touch</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -68,28 +66,18 @@
     <!--Title-->
     <div class="titleAnc">
       <h3>About</h3>              
-      <h1 class="text-info">I'm a multidisciplinary designer based in Chandigarh, India.</h1>
+      <h1 class="text-info">I'm a UI/UX Designer based in Chandigarh, India.</h1>
     </div>
     <div class="my-5"></div>
     <p class="lead">As an avid believer in the power of human-centered design, I am fascinated by user interaction and people-based problem solving. I approach <strong class="text-info">empathetically and focus</strong> on understanding the actual needs and emotions of the people who I am designing for, aiming to create clear, impactful solutions to enrich their audience.</p>
-    <div class="my-5"></div>
-
-    <div class="row">
-    <div class="col-sm-6">
-      <p class="text-justify">I have worked on projects in UI/UX, Web design, Branding, Theme Implementating, Visual Communication, Coding and applying Analytical skills. I enjoy learning new technologies, experimentation, and learning about new tools and approaches to continue enhancing my design process.</p>
-    </div>
-    <div class="col-sm-6">
-      <p class="text-justify">In my current role as a housewife, I work on all phases of the real life. phased multiple challenges like proceeding my passion for UX/UI designing process to create innovative solutions for some of the world's leading brands.</p>
-    </div>
-  </div>
-  <p><i>Outside of my design passion, I'm hanging out with my husband and two sons in Chandigarh, Reading books, listening & understanding mantra's, traveling, researching new technologies.</i></p>
-   
+    <div class="my-5"></div>   
+  </div>   
   </div>
 </section>
 
 <!-- Education-->
-<section id="aboutPage" class="text-light">
-  <div class="container my-5 mb-5 py-5 ">  
+<section id="aboutPage" class="text-dark bg-white">
+  <div class="container py-5 ">  
     <div class="row">
       <div class="col-md-6">
         <h2 class="text-uppercase mb-5">Profile</h2>
@@ -138,24 +126,496 @@
 
 </section>
 
-<!-- -->
+<!-- Company-->
+<section id="companyExperience" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-uppercase mb-5">PROFESSIONAL EXPERIENCE</h2>
+    <!-- EXPERIENCE START -->
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="panel-group timeline" id="experience">
+          <div class="timeline-item animated bounceInUp">
+            <!--Item -->
+            <div class="timeline-year text-dark text-center p-2"> <span class="timeline-year">Feburary 2021 till now</span></div>
+            <!-- .timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp6" class="collapsed" data-toggle="collapse" data-parent="#experience" aria-expanded="true"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <!-- //.panel-title -->
+                <div class="panel-title">
+                  <h4 class="robotoFont">Web Designer | <strong class="text-warning">Konceive Development Center Pvt. Ltd</strong>, Zirakpur</h4> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp6" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p><strong>Product Based Company</strong>
+                  <p><strong>Technologies Working On:</strong><br>HTML, CSS, SASS, GitLab, PHP, Figma, Adobe XD, Photoshop, Bootstrap, Material UI and Primevue Framework, Jquery, Wireframing, Prototyping.
+                  </p>
+                  <br>
+                  <p> <strong>Responsiblities:</strong>
+                    <br>
+                    <ul>
+                      <li>Design the aesthetics to be implemented within a product.</li>
+                      <li>Update the current code as per the business requirements.</li>
+                      <li>Build reusable code and libraries for future use, ensuring the technical feasibilities of UX/UI Designs.</li>
+                      <li>Worked with developers in key stages of the design process.</li>
+                      <li>Experience working in an Agile/Scrum development process as well as GIT Lab.</li>
+                      <li>Designing wireframe for independent modules.</li>
+                      <li>Provided front-end developers finalized, detailed design specifications including assets for direct implementation.</li>
+                      <li>Designed and created user-centric projects throughout the entire product lifecycle; kept track of performance and potential technical issues.</li>
+                      <li>Training Latest Technologies to Team (Responsive Websites, Frameworks)</li>
+                      <li>Collaborated closely with cross-functional teams.</li>                 
+                    </ul>
+                  </p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
 
 
+          <div class="timeline-item animated bounceInUp">
+            <!--Item -->
+            <div class="timeline-year text-dark text-center p-2"> <span class="timeline-year">August 2020 to Feburary 2021</span></div>
+            <!-- .timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp5" class="collapsed" data-toggle="collapse" data-parent="#experience" aria-expanded="true"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <!-- //.panel-title -->
+                <div class="panel-title">
+                  <h4 class="robotoFont">UI/UX Designer | <strong class="text-warning">Cube Infotech</strong>, Zirakpur</h4> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp5" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p><strong>Technologies Worked On:</strong><br>
+                  Shopify HTML, CSS, SASS, Bootstrap, WordPress, Photoshop, Wireframes, Figma, Adobe XD and Jquery</p>
+                  <br>
+                  <p><strong>Project Handled:</strong>
+                  <br><a href="https://www.bluetrunk.org/" target="_blank">Blue Trunk Foundation</a>, <a href="" target=""></a>, <a href="https://www.yunizoneyewear.com/" target="_blank">Yunizon Eye Wear</a>, <a href="https://thermocheckusa.com/" target="_blank">Thermo Check</a>, <a href="https://youzey.com/" target="_blank">Youzey</a>, <a href="https://shop.goutandyou.com/" target="_blank">Gout and you</a>, <a href="https://samuraw.ca">Samuraw Organic Complete</a>, <a href="https://www.rosycheeks.co.za/">Rozy Cheeks</a>, <a href="https://www.starpapaya.com/">Star Papaya</a></p>
+                  <br>
+                  <p> <strong>Responsiblities:</strong>
+                    <br>
+                    <ul>
+                      <li>Implementing user-centred design, mobile optimized sites and mobile apps designing within pre-set budgets and deadlines.</li>
+                      <li>Develop UI mock-ups and prototypes that clearly illustrate how sites function and look like.</li>
+                      <li>Identify and troubleshoot UX problems (e.g. responsiveness)</li>
+                      <li>Understanding client needs, requirements, and expectations and devise solutions accordingly.</li>
+                      <li>Quote discussions with BD team, estimating quote for projects.</li>
+                      <li>Implementation of new technologies in team</li>
+                      <li>Developing websites in Shopify.</li>
+                    </ul>
+                  </p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
+
+          <div class="timeline-item animated bounceInUp">
+            <!--Item -->
+            <div class="timeline-year text-dark text-center p-2"> <span class="timeline-year">Feburary 2014 to November 2014</span> </div>
+            <!-- .timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp1" class="collapsed" data-toggle="collapse" data-parent="#experience" aria-expanded="true"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <!-- //.panel-title -->
+                <div class="panel-title">
+                  <h4 class="robotoFont">Team Lead | <strong class="text-warning">Web World Experts</strong>, IT Park, Chandigarh</h4> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p><strong>Project Handled:</strong>
+                  <br> POSSuperStore, TrulyMedicalGetaways, Wisconsin Mattress, QIPoint, Omaha Christian Academy, CRHamilton, Carib Med International, Sports Camp Hub ExtensionWax ford Solar, HTLocating, The Cosmopolitan, Vote Versus, Canyon Excavating, Frankenstein, Panama Pet Relocation, Strongpower and many more… </p><br>
+                  <p> <strong>Responsiblities:</strong>
+                    <br>
+                    <ul>
+                      <li>Develops wireframes, site maps, schematics, flowcharts, working prototypes, creates designs based on client specifications and documents user experience.</li>
+                      <li>Implementing projects plans within preset budgets and deadlines.</li>
+                      <li>Collaborates closely with the app development team to bring prototypes into the production code process.</li>
+                      <li>Implements user-centered/ focused designs and processes in order to identify specific user needs and find best solutions.</li>
+                      <li>Coordinates tasks with product, front-end developers, manual testers in order to ensure all products are developed to accurately meet client objectives.</li>
+                      <li>Conducted, planned, and synthesized user research for use of web and app development team.</li>
+                      <li>Understanding client needs, requirements, and expectations and devise solutions accordingly.</li>
+                      <li>End to End Project Delivery from Design Phase.</li>
+                      <li>Quote discussions with BD team, estimating quote for projects.</li>
+                      <li>Implementation of new technologies in team creating templates of approved website layout, Training Juniors.</li>
+                      <li>Handling Team Experienced in creating websites and UI development for handheld devices like Smartphone’s(iPhone, Android and Tablets)</li>
+                      <li>Implementation of Responsive Websites with and without frameworks.</li>
+                    </ul>
+                  </p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
+
+          <!-- //.timeline-item -->
+          <div class="timeline-item animated bounceInUp">
+            <div class="timeline-year text-dark text-center "> <span class="timeline-year">October 2012 to February 2014</span> </div>
+            <!-- //.timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp2" class="collapsed" data-toggle="collapse" data-parent="#experience" aria-expanded="true"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <div class="panel-title">
+                  <h4>Assistant Team Lead | <strong class="text-warning">Cogniter Technology</strong>, Chandigarh</h4>
+                  <h5></h5> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p><strong>Projects Handled:</strong>
+                    <br> Nutrition Formulators, Orange County Car Hand Wash, Texas Interiors, Funpuppiz, Cromer, PhillipsSteel, Classified ride, Investment Diamond and many more…</p>
+                  <p><strong>Technologies Worked On:</strong>
+                    <br>HTML,CSS, Bootstrap 2, Joomla, Mangeto, Photoshop, Wireframes.</p><br>
+                  <p><strong>Responsiblities:</strong>
+                    <br>
+                    <ul>
+                      <li>Prepared research to keep track on all trends and developments in various industries; identified the capabilities that should be adopted in the design/ building process.</li>
+                      <li>Endeavoured to turn complicated processes and concepts into user-friendly, highly-intuitive, and navigable interfaces.</li>
+                      <li>Created mockup user interfaces to be used as reference points prior to finalizing the specifications and requirements..</li>
+                      <li>Worked with developers in key stages of the design process.</li>
+                      <li>Designing wireframe for website layouts</li>
+                      <li>Provided front-end developers finalized, detailed design specifications including assets for direct implementation.</li>
+                      <li>Designed and created user-centric projects throughout the entire product lifecycle; kept track of performance and potential technical issues.</li>
+                      <li>Training Latest Technologies to Team (Responsive Websites, Frameworks)</li>
+                      <li>Collaborated closely with cross-functional teams.</li>
+                      <li>Presided over design-focused meetings with clients.</li>
+                    </ul>
+                  </p>
+                  <p><strong>Achievements:</strong> Appreciation Award in innovation in new technologies.</p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
+
+          <!-- //.timeline-item -->
+          <div class="timeline-item animated bounceInUp">
+            <div class="timeline-year"> <span class="timeline-year text-dark text-center">June 11 to October 2012</span> </div>
+            <!-- //.timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp3" class="collapsed" data-toggle="collapse" data-parent="#experience"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <div class="panel-title">
+                  <h4>Web Designer | <strong class="text-warning">Cerulean Technology</strong>, Bangaluru.</h4>
+                  <h5></h5> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p><strong>Projects Handled:</strong>
+                    <br> .2BrightLights, Urbanswipe, MBA Dashborad, Typefocus, Groupbie, CISCO, Pass The Notes, StockAtBottom, iSolicitor, ichild</p><br>
+                  <p><strong>Technologies Worked On:</strong>
+                    <br>HTML,CSS, Bootstrap 2, Joomla, Mangeto, Photoshop, Wireframes.</p>
+                  <p><strong>Responsiblities:</strong>
+                    <br>
+                    <ul>
+                      <li>Responsible for the Design, layout mockups.</li>
+                      <li>Designing wireframe for website layouts</li>
+                      <li> Coding, Mockups, Designing assets (Logos, Banners and images), and modifying and enhancing photos</li>
+                    </ul>
+                  </p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
+
+          <!-- //.timeline-item -->
+          <div class="timeline-item animated bounceInUp">
+            <div class="timeline-year"> <span class="timeline-year text-dark text-center ">April 2010 to May 2011</span> </div>
+            <!-- //.timeline-year -->
+            <div class="timeline-btn bg-warning text-center">
+              <a href="#exp4" class="collapsed" data-toggle="collapse" data-parent="#experience"></a>
+            </div>
+            <!-- //.timeline-btn -->
+            <div class="panel">
+              <div class="panel-heading">
+                <div class="panel-title">
+                  <h4>Graphic Designer | <strong class="text-warning">Aaryaa & Associates</strong>, Chandigarh</h4>
+                  <h5></h5> </div>
+                <!-- //.panel-title -->
+              </div>
+              <!-- //.panel-heading -->
+              <div id="exp4" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p><strong>Project Handled:</strong>
+                    <br> Flower Hill Resorts, Salus Pharmaceuticals, Ashok & Associates, Aaryaa & Associates, Mission Ishita Foundation and many more…</p>
+                </div>
+                <!-- //.panel-body -->
+              </div>
+              <!-- //.panel-collapse -->
+            </div>
+            <!-- //.panel -->
+          </div>
+          <!-- //.timeline-item -->
+        </div>
+        <!-- //.panel-group -->
+      </div>
+      <!-- //.col-md-10 -->
+    </div>
+    <!-- //EXPERIENCE END -->
+  </div>
+</section>
+
+<section class="skillsBlue">
+  <div class="container py-5">
+        <div class="text-center bgHeader">
+          <h2 class="text-white text-center text-uppercase ">Specialisms</h2>
+          <p>Technical skills that help me in Web Designing.</p>
+          <hr>
+          <div class="text-center my-4 h-100">
+            <img src="img/ui-ux-img.png" alt="UI and Ux" class="d-block my-auto mx-auto img-fluid">
+          </div>
+          <p class="lead">I try my best to provide designs that are more than clean and easy to use. User experience  is a person's emotion and attitude about using a particular product, system or service. Over the last 6+ years of industry experience I 've developed myself in user approach, understanding requirement of web, apps or products.</p>     
+          
+        </div>
+  </div>
+</section>
+<!--Skills -->
+<section id="skills-section" class="bg-white"> 
+    
+  <div class="bgHeader pt-5"> 
+    <h2 class="text-center text-uppercase">Skills I Rate myself </h2>    
+  </div>  
+      
+  <div class="container py-5">
+    <div class="row">               
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class="px-5 pb-5">                    
+          <!-- Progress bar 1 -->
+          <div class="progress mx-auto" data-value='80'>
+            <span class="progress-left">
+                          <span class="progress-bar border-warning"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-warning"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Mockup</h2>
+          <!-- END -->              
+          
+        </div>
+      </div>
+      <!-- start -->
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class="px-5 pb-5">                    
+          <!-- Progress bar 1 -->
+          <div class="progress mx-auto" data-value='90'>
+            <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">HTML5 & CSS</h2>
+          <!-- END -->              
+          
+        </div>
+      </div><!-- end-->
+  
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5  ">
+          
+  
+          <!-- Progress bar 2 -->
+          <div class="progress mx-auto" data-value='95'>
+            <span class="progress-left">
+                          <span class="progress-bar border-success"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-success"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Bootstrap</h2>
+          <!-- END -->    
+          
+        </div>
+      </div>
+  
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5  ">             
+  
+          <!-- Progress bar 3 -->
+          <div class="progress mx-auto" data-value='70'>
+            <span class="progress-left">
+                          <span class="progress-bar border-danger"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-danger"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5"> Axure RP</h2>
+          <!-- END -->    
+          
+        </div>
+      </div>
+  
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5 ">           
+                <!-- Progress bar 4 -->
+          <div class="progress mx-auto" data-value='80'>
+            <span class="progress-left">
+                          <span class="progress-bar border-dark"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-dark"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Wordpress</h2>
+          <!-- END -->      
+          
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5 ">           
+                <!-- Progress bar 4 -->
+          <div class="progress mx-auto" data-value='90'>
+            <span class="progress-left">
+                          <span class="progress-bar border-success"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-success"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Figma</h2>
+          <!-- END -->      
+          
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5 ">           
+                <!-- Progress bar 4 -->
+          <div class="progress mx-auto" data-value='80'>
+            <span class="progress-left">
+                          <span class="progress-bar border-info"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-info"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Adobe XD</h2>
+          <!-- END -->      
+          
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-3 col-lg-6 mb-4">
+        <div class=" px-5 pb-5 ">           
+                <!-- Progress bar 4 -->
+          <div class="progress mx-auto" data-value='75'>
+            <span class="progress-left">
+                          <span class="progress-bar border-warning"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-warning"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h5 text-center mb-4 text-uppercase pt-5">Prototyping</h2>
+          <!-- END -->      
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End Skills -->
 
 <!-- GetInTouch  -->
 <section id="getintouch">
-  <div class="bgHeader p-5"> 
-    <h1 class="display-4 text-center">If you'd like to work together, </h1>   
-    <p class="lead text-lowercase text-center">email me at <a href="mailto:alkasood986@gmail.com">alkasood986@gmail.com</a></p> 
-  </div>   
+  <div class="bgHeader p-5">
+    <h1 class="display-4 text-center">If you'd like to work together, </h1>
+    <p class="lead text-lowercase text-center">email me at <a href="mailto:alkasood986@gmail.com">alkasood986@gmail.com</a></p>
+    <div class="clearfix"></div> <a href="file/AlkaSood.pdf" class="btn btn-info middle" target="_new">Download Resume <i class="fa fa-download" aria-hidden="true"></i></a> </div>
 </section>
 <!-- GetInTouch  -->
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script>
+  $(function() {
+  
+    $(".progress").each(function() {
+  
+      var value = $(this).attr('data-value');
+      var left = $(this).find('.progress-left .progress-bar');
+      var right = $(this).find('.progress-right .progress-bar');
+  
+      if (value > 0) {
+        if (value <= 50) {
+          right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+        } else {
+          right.css('transform', 'rotate(180deg)')
+          left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+        }
+      }
+    })
+    function percentageToDegrees(percentage) {
+      return percentage / 100 * 360
+    }
+  });
+  
+  </script>
 </body>
 </html>
 
